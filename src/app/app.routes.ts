@@ -5,7 +5,7 @@ AboutComponent, ProductComponent, PortafolioComponent
 const app_routes: Routes = [
   { path: 'home', component: PortafolioComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'product', component: ProductComponent },
+  { path: 'product/:id', component: ProductComponent },
 
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
