@@ -15,6 +15,7 @@ import { AboutComponent } from './components/about/about.component';
 import { ProductComponent } from './components/product/product.component';
 
 import {HttpModule} from '@angular/http';
+import { BuscarComponent } from './components/buscar/buscar.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import {HttpModule} from '@angular/http';
     FooterComponent,
     PortafolioComponent,
     AboutComponent,
-    ProductComponent
+    ProductComponent,
+    BuscarComponent
   ],
   imports: [
     BrowserModule,
